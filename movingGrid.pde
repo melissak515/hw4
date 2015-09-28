@@ -8,8 +8,9 @@ class Ball {
     this.x = x;
     this.y = y;
     this.c = c;
+    //for fun!
     vx = 1;
-    vy = 1;
+    vy = random(.8,1);
   }
 
   void draw() {
